@@ -60,7 +60,9 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
 
-  #permet de tester l'envoi de mails
-  config.action_mailer.delivery_method = :letter_opener
+  #permet de tester l'envoi de mails sur mon navigateur
+  #config.action_mailer.delivery_method = :letter_opener
+
+  #permet d'envoyer les mails
   config.action_mailer.perform_deliveries = true
 end
