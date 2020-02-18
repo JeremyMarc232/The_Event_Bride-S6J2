@@ -65,4 +65,6 @@ Rails.application.configure do
 
   #permet d'envoyer les mails
   config.action_mailer.perform_deliveries = true
+
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end

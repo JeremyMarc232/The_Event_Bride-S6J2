@@ -68,6 +68,6 @@ group :development do
   gem "binding_of_caller"
 end
 
-gem 'dotenv-rails'
-
 gem 'devise'
+
+gem 'dotenv-rails'
